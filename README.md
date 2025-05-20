@@ -6,9 +6,8 @@ Landing page moderna y responsive diseñada para una barbería. Presenta los ser
 
 ## 🔗 Demo en vivo
 
-👉 [Ver landing en Netlify](https://tu-enlace-netlify.netlify.app)
+👉 [Ver landing en Netlify](file:///C:/Users/Pepe/Desktop/Programacion/Barberia%20landing%20page/index.html)
 
-_Reemplazá el enlace con el tuyo real una vez publicada en Netlify._
 
 ---
 
@@ -16,11 +15,11 @@ _Reemplazá el enlace con el tuyo real una vez publicada en Netlify._
 
 ### Página principal
 
-![Landing - sección principal](landing.png)
+(landing.png)
 
 ### Detalle de sección
 
-![Landing - sección secundaria](muestras.png)
+(muestras.png)
 
 _Reemplazá los nombres de los archivos de imagen por los tuyos reales: `formulario.png`, `turno.png`, etc._
 
