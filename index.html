@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbería Urbana</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }
+    body {
+      background-color: #111;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      background: #1a1a1a;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      color: #f33;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #ccc;
+    }
+    .hero {
+      padding: 100px 40px;
+      text-align: center;
+      background: url('https://images.unsplash.com/photo-1593794851786-0d3fddf47d3d') no-repeat center/cover;
+      color: #fff;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #ddd;
+    }
+    .section {
+      padding: 60px 40px;
+    }
+    .services, .gallery, .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #222;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .contact {
+      text-align: center;
+    }
+    .contact a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #f33;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 20px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Barbería Urbana</h1>
+    <nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#galeria">Galería</a>
+      <a href="#opiniones">Opiniones</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Tu estilo empieza aquí</h2>
+    <p>Expertos en cortes modernos, clásicos y afeitado profesional</p>
+  </section>
+
+  <section class="section" id="servicios">
+    <h2>Nuestros Servicios</h2>
+    <div class="services">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1585790992766-6d783c0c639e?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Corte clásico">
+        <h3>Corte Clásico</h3>
+        <p>$4.000 ARS</p>
+      </div>
+      <div class="card">
+        <img src="https://plus.unsplash.com/premium_photo-1661645847557-43be2ef29097?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjIxfHxjb3J0ZSUyMGRlJTIwcGVsbyUyMGZhZGV8ZW58MHx8MHx8fDA%3D" alt="Degrade">
+        <h3>Fade / Degradé</h3>
+        <p>$5.500 ARS</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1629189784191-9afdcbcb0398?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29ydGUlMjBkZSUyMHBlbG98ZW58MHx8MHx8fDA%3D" alt="Barba">
+        <h3>Afeitado y Barba</h3>
+        <p>$3.800 ARS</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="galeria">
+    <h2>Galería</h2>
+    <div class="gallery">
+      <img src="https://plus.unsplash.com/premium_photo-1661288502656-7265af3e6b23?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29ydGVzJTIwZGUlMjBwZWxvJTIwYmVsbG98ZW58MHx8MHx8fDA%3D" alt="Trabajo 1">
+      <img src="https://plus.unsplash.com/premium_photo-1661288513057-8537363b1756?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fGNvcnRlcyUyMGRlJTIwcGVsbyUyMGJlbGxvfGVufDB8fDB8fHww" alt="Trabajo 2">
+      <img src="https://plus.unsplash.com/premium_photo-1706557116389-49041f9b79d6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fGNvcnRlcyUyMGRlJTIwcGVsbyUyMGJlbGxvfGVufDB8fDB8fHww" alt="Trabajo 3">
+    </div>
+  </section>
+
+  <section class="section" id="opiniones">
+    <h2>Opiniones</h2>
+    <div class="testimonials">
+      <div class="card">"Me encantó el trato y la calidad del corte. Volveré seguro." – Martín G.</div>
+      <div class="card">"Atención rápida, excelente resultado. 10/10." – Pablo S.</div>
+      <div class="card">"La mejor barbería de la zona. Muy recomendable." – Facu L.</div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contacto">
+    <h2>Contactanos</h2>
+    <p>📍 Av. Corrientes 1234, Buenos Aires<br>📞 +54 11 4444-5678</p>
+    <a href="https://wa.me/541144445678" target="_blank">Escribinos por WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Barbería Urbana. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
